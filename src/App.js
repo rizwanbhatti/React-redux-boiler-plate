@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
+import { Router, Route,  browserHistory, IndexRoute } from 'react-router'
 
 import LoginSignup from './containers/login-signup'
 import Login from './components/login'
@@ -22,7 +22,7 @@ class App extends Component {
                 </Route>
 
              
-                {/*<Route path="*" component={NoMatch} />*/}
+        
 
             </Router>
         )

@@ -13,9 +13,12 @@ class LoginSignup extends Component {
                 ></AppBar>
                
                 <ul>
-                    {/*<Link to="/apn" >Ehsan</Link>*/}
-                    <Link to="/login">Login</Link>
-                    <Link to="/signup">Signup</Link>
+     
+                  <Link to="/login">{<FlatButton label="Login" />}</Link>
+                 <Link to="/signup">{<FlatButton label="Signup" />}</Link>
+
+     
+                    
                 </ul>
                 {this.props.children}
             </div>
